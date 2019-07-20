@@ -1,5 +1,6 @@
 const express = require('express')
-const router = express.router()
+// var appDouble = express()
+const router = express.router() //not a fcuntion right now? Express is used in server.js though
 const request = require ('request') //easier https calls
 const cheerio = require ('cheerio')
 const Article = require('../../models/article')
